@@ -98,31 +98,18 @@ body{
     color: blue;
 }
 
-.navbar_items ul li .dropdown {
-    display: none;
+.navbar_items ul li .dropdown{
+    display: none; 
     position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #444;
+    background-color: whitesmoke;
     list-style: none;
-    padding: 10px 0;
-    margin: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
+       
+} 
 .navbar_items ul li:hover .dropdown {
     display: block;
+
 }
 
-.navbar_items ul li .dropdown li {
-    padding: 5px 20px;
-}
-
-.navbar_items ul li .dropdown li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: normal;
-    transition: color 0.3s;
-}
 
 .search{
     display: flex;
