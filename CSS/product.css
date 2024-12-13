@@ -69,3 +69,65 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: gray;
+}
+
+.navbar_items ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar_items ul li{
+    margin: 0 10px;
+}
+.navbar_items ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar_items ul li a:hover {
+    color: blue;
+}
+
+.navbar_items ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.navbar_items ul li:hover .dropdown {
+    display: block;
+}
+
+.navbar_items ul li .dropdown li {
+    padding: 5px 20px;
+}
+
+.navbar_items ul li .dropdown li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+}

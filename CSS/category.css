@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+
+.header{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: gray;
+}
+
+.navbar_items ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar_items ul li{
+    margin: 0 10px;
+}
+.navbar_items ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar_items ul.dropdown li{
+    display: block;
+}
+
+.navbar_items ul li a:hover {
+    color: blue;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+    gap: 30px;
+}
+
+.product{
+    position: relative;
+    background-color: rgb(202, 198, 204);
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.image_product img{
+    width: 100%;
+    height: auto;
+   display: flex;
+}
+
+.name_product h3{
+    text-align: left;
+    font-size: 1.5rem;
+    color: #211414;
+}
+
+.name_price h4{
+    text-align: left;
+}
+
+.desc_product p{
+    text-align: center;
+}
+
+.qty{
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.rate_product{
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.add_to_cart{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.add_to_cart button{
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add_to_cart button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+
+
