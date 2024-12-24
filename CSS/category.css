@@ -16,6 +16,7 @@ body{
 }
 
 
+
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -40,13 +41,22 @@ body{
     font-weight: bold;
 }
 
-.navbar_items ul.dropdown li{
-    display: block;
-}
-
 .navbar_items ul li a:hover {
     color: blue;
 }
+
+.navbar_items ul li .dropdown{
+    display: none; 
+    position: absolute;
+    background-color: whitesmoke;
+    list-style: none;
+       
+} 
+.navbar_items ul li:hover .dropdown {
+    display: block;
+
+}
+
 
 .search{
     display: flex;
