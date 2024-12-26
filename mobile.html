@@ -12,13 +12,12 @@
         <div class="navbar_items">
             <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">Products</a>
+            <li><a href="index.html">Products</a>
             <ul class=" dropdown">
-                <li><a href="mobile.html">Mobiles</a></li>
-                <li><a href="laptop.html">Laptops</a></li>
-                <li><a href="audio.html">HeadPhones</a></li>
-                <li><a href="Wearables.html">Watches</a></li>
-                <li><a href="tablets.html">Tablets</a></li>
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="wearables.html">Wearables</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="audio.html">Audio</a></li>
             </ul>
             </li>
             <li><a href="">Cart</a></li>
@@ -443,5 +442,31 @@
         </div>
      
     </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const searchInput = document.getElementById("search");
+            const products = document.querySelectorAll(".product");
+    
+            searchInput.addEventListener("input", function () {
+                const query = searchInput.value.toLowerCase();
+                
+                products.forEach(product => {
+                    const name = product.querySelector(".name_product h3").textContent.toLowerCase();
+                    const category = product.dataset.category.toLowerCase();
+                    const description = product.querySelector(".desc_product p").textContent.toLowerCase;
+    
+                    // Check if the query matches any of the attributes
+                    if (name.includes(query) || category.includes(query) || description.includes(query)) {
+                        product.style.display = "block"; // Show the product
+                    } else {
+                        product.style.display = "none"; // Hide the product
+                    }
+                });
+            });
+        });
+    </script>
+    
 </body>
-</html>
+</html>  

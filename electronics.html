@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="CSS/category.css">
+    <title>Electronic Section</title>
+    <link rel="stylesheet" href="CSS/product.css">
 </head>
 <body>
     <form id="navbar">
         <div class="navbar_items">
             <ul>
             <li><a href="">Home</a></li>
-            <li><a href="index.htmlS">Products</a></li>
+            <li><a href="index.html">Products</a>
+            <ul class=" dropdown">
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="wearables.html">Wearables</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>
+            </li>
             <li><a href="">Cart</a></li>
             <li><a href="">Login</a></li>
             <li><a href="">Contact US</a></li>
@@ -21,37 +27,38 @@
 
         <div class="search">
             <label for="search">Search:</label>
-            <input type="search" id="search" name="search" placeholder="Search hear ...">
+            <input type="search" id="search" name="search" placeholder="Search here...">
         </div>
     </form>
 
 
+
+
     <div class="header">
-        <h2>Our Products</h2>
+        <h2>Electronics</h2>
     </div>
     <div class="container">
 
         <div class="product">
             <div class="image_product">
-                <img src="images/OIP.jpg" alt="">
+                <img src="images/promotion products/MOBILE.png" alt="">
             </div>
 
             <div class="name_product">
-                <h3>Laptops</h3>
+                <h3>Mobiles</h3>
             </div>
 
 
             <div class="explor">
-                <a href="laptop.html">
+                <a href="mobile.html">
                 <button type="button">Explor More</button>
                 </a>
             </div>
         </div>
-        
 
         <div class="product">
             <div class="image_product">
-                <img src="images/OIP.jpg" alt="">
+                <img src="images/laptop collection/download.jpeg" alt="">
             </div>
 
             <div class="name_product">
@@ -69,22 +76,40 @@
 
         <div class="product">
             <div class="image_product">
-                <img src="images/OIP.jpg" alt="">
+                <img src="images/tablet collection/th.jpeg" alt="">
             </div>
 
             <div class="name_product">
-                <h3>Laptops</h3>
+                <h3>Tablets</h3>
             </div>
 
 
             <div class="explor">
-                <a href="laptop.html">
+                <a href="tablets.html">
                 <button type="button">Explor More</button>
                 </a>
             </div>
         </div>
 
         
+        <div class="product">
+            <div class="image_product">
+                <img src="images/networkp/image(1).jpeg" alt="">
+            </div>
+
+            <div class="name_product">
+                <h3>Network Devices</h3>
+            </div>
+
+
+            <div class="explor">
+                <a href="network.html">
+                <button type="button">Explor More</button>
+                </a>
+            </div>
+        </div>
+
+
     </div>
 </body>
 </html>

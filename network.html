@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops</title>
+
+    <link rel="stylesheet" href="CSS/category.css">
+</head>
+<body>
+    <form id="navbar">
+        <div class="navbar_items">
+            <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="index.html">Products</a>
+            <ul class=" dropdown">
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="wearables.html">Wearables</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>
+            </li>
+            <li><a href="">Cart</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Contact US</a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search here...">
+        </div>
+    </form>
+
+
+    <div class="header">
+        <h2>Network</h2>
+
+    </div>
+    <div class="container">
+
+        <div class="product" data-category="mobiles" data-description="High performance mobile">
+            <div class="image_product">
+                <img src="images/networkp/download (1).jpeg" alt="">
+            </div>
+
+            <div class="name_product">
+                <h3>TP-Link TL-MR3420 3G/4G Wireless N Router</h3>
+            </div> 
+
+            <div class="price_product">
+                <h4>85$</h4>
+            </div>
+
+            <div class="desc_product">
+                <p>3G/4G and WAN connection Backup guarantees an “Always-online” Internet connection,Compatible with LTE/HSPA+/HSUPA/HSDPA/UMTS/EVDO USB modems, tested in the field</p>
+            </div>
+
+            <div>
+                <label for="qty">Quantity</label>
+                <input type="number" name="qty" id="qty" min="1" max="10">
+            </div>
+
+            <label for="rate_product">Rate Product:</label>
+            <input type="number" id="rate_product" name="rate_prouct" min="0" max="5">
+
+            <div class="add_to_cart">
+                <a href="#">
+                <button type="button">Add To Cart</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="product" data-category="mobiles" data-description="High performance mobile">
+            <div class="image_product">
+                <img src="images/networkp/OIP.jpeg" alt="">
+            </div>
+
+            <div class="name_product">
+                <h3>Tp Link TL-WR840N 300Mbps Wireless N Router | CTC Kenya</h3>
+            </div> 
+
+            <div class="price_product">
+                <h4>65$</h4>
+            </div>
+
+            <div class="desc_product">
+                <p>300Mbps wireless transmission rate ideal for both bandwidth sensitive tasks and basic work</p>
+            </div>
+
+            <div>
+                <label for="qty">Quantity</label>
+                <input type="number" name="qty" id="qty" min="1" max="10">
+            </div>
+
+            <label for="rate_product">Rate Product:</label>
+            <input type="number" id="rate_product" name="rate_prouct" min="0" max="5">
+
+            <div class="add_to_cart">
+                <a href="#">
+                <button type="button">Add To Cart</button>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="product" data-category="mobiles" data-description="High performance mobile">
+            <div class="image_product">
+                <img src="images/networkp/OIP (1).jpeg" alt="">
+            </div>
+
+            <div class="name_product">
+                <h3>TP-Link TL-WA850RE | 300Mbps Universal Wi-Fi Range Extender</h3>
+            </div> 
+
+            <div class="price_product">
+                <h4>40$</h4>
+            </div>
+
+            <div class="desc_product">
+                <p>Range Extender mode boosts wireless signal to previously unreachable or hard-to-wire areas flawlessly</p>
+            </div>
+
+            <div>
+                <label for="qty">Quantity</label>
+                <input type="number" name="qty" id="qty" min="1" max="10">
+            </div>
+
+            <label for="rate_product">Rate Product:</label>
+            <input type="number" id="rate_product" name="rate_prouct" min="0" max="5">
+
+            <div class="add_to_cart">
+                <a href="#">
+                <button type="button">Add To Cart</button>
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div class="product" data-category="mobiles" data-description="High performance mobile">
+            <div class="image_product">
+                <img src="images/networkp/OIP (2).jpeg" alt="">
+            </div>
+
+            <div class="name_product">
+                <h3>TP-Link RE450 | AC1750 Wi-Fi Range Extender </h3>
+            </div> 
+
+            <div class="price_product">
+                <h4>80$</h4>
+            </div>
+
+            <div class="desc_product">
+                <p>Expand Wi-Fi Network for Ultimate Performance,Expanded 450Mbps on 2.4GHz + 1300Mbps on 5GHz totals 1750Mbps Wi-Fi speeds</p>
+            </div>
+
+            <div>
+                <label for="qty">Quantity</label>
+                <input type="number" name="qty" id="qty" min="1" max="10">
+            </div>
+
+            <label for="rate_product">Rate Product:</label>
+            <input type="number" id="rate_product" name="rate_prouct" min="0" max="5">
+
+            <div class="add_to_cart">
+                <a href="#">
+                <button type="button">Add To Cart</button>
+                </a>
+            </div>
+        </div>
+
+
+
+        <script>
+            document.getElementById("search").addEventListener("input", function () {
+                const query = this.value.toLowerCase(); // Convert the search query to lowercase
+                const products = document.querySelectorAll(".product"); // Select all product elements
+            
+                products.forEach((product) => {
+                    const name = product.querySelector(".name_product h3").textContent.toLowerCase();
+                    const description = product.querySelector(".desc_product p").textContent.toLowerCase();
+                    const category = product.getAttribute("data-category").toLowerCase();
+            
+                    // Check if the query matches name, category, or description
+                    if (
+                        name.includes(query) ||
+                        description.includes(query) ||
+                        category.includes(query)
+                    ) {
+                        product.style.display = "block"; // Show matching products
+                    } else {
+                        product.style.display = "none"; // Hide non-matching products
+                    }
+                });
+            });
+            
+    
+        </script>
+
+     
+    </div>
+</body>
+</html>
