@@ -445,5 +445,33 @@
 
 
     </div>
+
+
+    
+    <script>
+        document.getElementById("search").addEventListener("input", function () {
+            const query = this.value.toLowerCase(); // Convert the search query to lowercase
+            const products = document.querySelectorAll(".product"); // Select all product elements
+        
+            products.forEach((product) => {
+                const name = product.querySelector(".name_product h3").textContent.toLowerCase();
+                const description = product.querySelector(".desc_product p").textContent.toLowerCase();
+                const category = product.getAttribute("data-category").toLowerCase();
+        
+                // Check if the query matches name, category, or description
+                if (
+                    name.includes(query) ||
+                    description.includes(query) ||
+                    category.includes(query)
+                ) {
+                    product.style.display = "block"; // Show matching products
+                } else {
+                    product.style.display = "none"; // Hide non-matching products
+                }
+            });
+        });
+        
+
+    </script>
 </body>
 </html>
