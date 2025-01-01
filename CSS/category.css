@@ -106,7 +106,7 @@ body{
 }
 
 .desc_product p{
-    text-align: center;
+    text-align: left;
 }
 
 .qty{
@@ -143,3 +143,29 @@ body{
 }
 
 
+
+div label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+div input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+div input[type="number"]:focus {
+    width: 100px; /* Adjusted for decimals */
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+    text-align: center;}

@@ -253,6 +253,127 @@
       "discount": "15%",
       "rating": 4.8,
       "is_bundle": true
-    }
+    },
+    {      
+      "id": 23,
+      "name": "Apple MacBook Air (M2, 2023)",
+      "price": "1099$",
+      "category":"Electronics",
+      "image": "images/laptop collection/01.png",
+      "quantity": 20,
+      "description": "The MacBook Air (M2) features Apple's powerful M2 chip, offering exceptional performance, an improved 13.6-inch Liquid Retina display, a larger trackpad, and a new design that is thinner and lighter. It's perfect for everyday tasks, light photo/video editing, and productivity.",
+      "rating": 4.5,
+      "is_bundle": false
+    },
+    {
+      "id": 24,
+      "name": "Apple MacBook Pro 13-inch (M2, 2022)",
+      "price": "1,299$",
+      "image": "images/laptop collection/02.png",
+      "quantity": 20,
+      "description": "The MacBook Pro 13-inch (M2) delivers powerful performance with the Apple M2 chip. It features a high-quality Retina display, improved battery life, and offers great performance for both work and entertainment.",
+      "rating": 4.5,
+      "is_bundle": false
+    },
+    {
+      "id": 25,
+      "name": "Apple MacBook Pro 14-inch (2023)",
+      "price": "1,999$",
+      "image": "images/laptop collection/03.png",
+      "quantity": 15,
+      "description": "Powered by the Apple M2 Pro and M2 Max chips, the MacBook Pro 14-inch offers unparalleled performance for professional users. It has a stunning Liquid Retina XDR display, great battery life, and an array of ports, making it ideal for intensive creative work, coding, and more.",
+      "rating": 4.8,
+      "is_bundle": false
+  },
+  {
+      "id": 26,
+      "name": "Apple MacBook Pro 16-inch (2023)",
+      "price": "2,499$",
+      "image": "images/laptop collection/04.png",
+      "quantity": 5,
+      "description": "With the M2 Pro or M2 Max chip, the 16-inch MacBook Pro is designed for professionals needing top-tier performance. It features a massive 16.2-inch Retina display, incredible battery life, and powerful graphics, making it perfect for high-end creative tasks like video editing and 3D rendering.",
+      "rating": 4.9,
+      "is_bundle": false
+  },
+  {
+      "id": 27,
+      "name": "Apple MacBook Air M2 Chip",
+      "price": "1,299$",
+      "image": "images/laptop collection/05.png",
+      "quantity": 30,
+      "description": "The 15-inch MacBook Air with the M2 chip is the perfect balance of power and portability. It features a larger, stunning Retina display with 500 nits of brightness, making it ideal for productivity and entertainment. The thin, lightweight design is available in four colors: Midnight, Starlight, Space Gray, and Silver. With long battery life and powerful performance, the MacBook Air 15-inch is perfect for daily tasks, creative projects, and light gaming.",
+      "rating": 4.6,
+      "is_bundle": false
+  },
+  {
+      "id": 28,
+      "name": "Samsung Galaxy Book3 15-inch",
+      "price": "1,099$",
+      "image": "images/laptop collection/06.png",
+      "quantity": 25,
+      "description": "The Samsung Galaxy Book3 15-inch is an ultra-lightweight laptop with a 15.6-inch FHD display. It features the latest Intel Core processors and Intel Iris Xe graphics, making it an excellent option for students, professionals, and casual users. With long battery life, solid build quality, and quick charging, this laptop is designed for everyday computing and multitasking.",
+      "rating": 4.3,
+      "is_bundle": false
+  },
+  {
+      "id": 29,
+      "name": "Samsung Galaxy Book2 Pro 360",
+      "price": "1,249$",
+      "image": "images/laptop collection/07.png",
+      "quantity": 18,
+      "description": "The Galaxy Book2 Pro 360 offers a 13.3-inch AMOLED touchscreen display with excellent brightness and color accuracy. Powered by the Intel Core i5/i7 processors and Intel Iris Xe graphics, it's great for everyday tasks and light creative work. The 2-in-1 convertible design, ultra-thin body, and long battery life make it ideal for portability and productivity on the go.",
+      "rating": 4.4,
+      "is_bundle": false
+  },
+  {
+      "id": 30,
+      "name": "HP ENVY",
+      "price": "999$",
+      "image": "images/laptop collection/08.png",
+      "quantity": 40,
+      "description": "The HP ENVY 13.3-inch laptop features a sleek design with an Intel Core i5 or i7 processor and Intel Iris Xe graphics. With a stunning FHD display and a solid battery life of up to 11 hours, it’s ideal for daily tasks, productivity, and light creative work. It also includes a fingerprint reader for added security.",
+      "rating": 4.2,
+      "is_bundle": false
+  },
+  {
+      "id": 31,
+      "name": "HP Spectre x360 14-inch",
+      "price": "1,499$",
+      "image": "images/laptop collection/09.png",
+      "quantity": 22,
+      "description": "The HP Spectre x360 features a 14-inch OLED display with stunning color and clarity. Powered by the Intel Core i7 processor and Intel Iris Xe graphics, it’s designed for performance and portability. The 2-in-1 convertible design, ultra-slim chassis, and long battery life make it perfect for users who need both style and substance.",
+      "rating": 4.7,
+      "is_bundle": false
+  },
+  {
+      "id": 32,
+      "name": "HP Omen 16 Gaming",
+      "price": "1,499$",
+      "image": "images/laptop collection/10.png",
+      "quantity": 12,
+      "description": "The HP Omen 16 is built for gamers with its 16.1-inch FHD display, NVIDIA GeForce RTX 3060/3070 graphics, and Intel Core i7 processor. Designed for high performance, it features fast refresh rates and enhanced cooling systems for intense gaming sessions. The sleek, customizable design and solid battery life make it a top choice for gaming enthusiasts.",
+      "rating": 4.6,
+      "is_bundle": false
+  },
+  {
+      "id": 33,
+      "name": "Apple MacBook M2 Pro Chip",
+      "price": "1,999$",
+      "image": "images/laptop collection/11.png",
+      "quantity": 8,
+      "description": "The 14-inch MacBook Pro with the new M2 Pro chip offers exceptional performance for professional workflows. It features a stunning Liquid Retina XDR display, ideal for creatives and developers. With longer battery life and faster performance than ever before, it’s designed for heavy-duty tasks like video editing, software development, and more. Available in Space Gray and Silver, it also comes with three Thunderbolt 4 ports, an HDMI port, and an SDXC card slot.",
+      "rating": 4.8,
+      "is_bundle": false
+  },
+  {
+      "id": 34,
+      "name": "Apple MacBook Air (M1, 2020)",
+      "price": "999$",
+      "image": "images/laptop collection/12.png",
+      "quantity": 10,
+      "description": "The MacBook Air (M1) is powered by Apple's first custom silicon chip, delivering impressive performance and battery life. The 13.3-inch Retina display, combined with a thin, fanless design, makes this laptop an excellent choice for those who want a balance of portability and power.",
+      "rating": 4.6,
+      "is_bundle": false
+  }
   ]
 }
